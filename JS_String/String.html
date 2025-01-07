@@ -1,0 +1,40 @@
+<html>
+<head>
+
+</head>
+<body>
+    First Name<input type="text" id="first_name"/>
+    <br/>
+    Middle Name<input type="text" id="middle_name"/>
+<br/>
+    Last Name<input type="text" id="last_name"/>
+    <br/>
+<input type="button" value="Show Concatination"
+onclick="get_concatination()"
+/>
+<div id="display">
+
+</div>
+
+<script>
+get_concatination =function (){
+    var first_name=document.getElementById('first_name').value;
+    var middle_name=document.getElementById('middle_name').value;
+    var last_name=document.getElementById('last_name').value;
+
+    var combination= first_name+middle_name+last_name;
+    var result =document.getElementById('display');
+    result.innerHTML= combination;
+    alert(combination);
+
+    var combination_with_spaces= first_name+' '+middle_name+' '+last_name;
+    var result =document.getElementById('display');
+    result.innerHTML= combination_with_spaces;
+
+
+}
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+1) Objective  -> To write a program in JavaScript,  that will check whether a 
+provided string is palindrome or not 
+
+2) Analysis -> 
+We will have to check following things 
+
+a) first and last character of word must be same 
+repeat this process, till complete word must not finished 
+
+b) length of provided word/string should be devide by 2 
+
+c) there will be 2 conditions 
+1) even 
+2) odd
+
+3) Design (Algorithm) -> 
+
+4) Coding & Debugging->
+
+
+5) Unit Testing ->
+
+6) Fixing faults found in Testing phase->

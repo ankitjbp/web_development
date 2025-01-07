@@ -1,0 +1,34 @@
+String => text that used for various purposes, 
+such as show/display name, address values etc. 
+String can operated in various terms 
+
+
+
+
+
+Array => In general when we deal similar sort of items together, 
+or keep together in linear/ sequential order, its call array.
+Location of each element is called 'index'
+
+
+example -> students of a class
+
+student = ['Rahul','Mohit','Naveen','Dwarika']
+here student is an array, which have four elements.
+
+to access any  element/item we need to write array's name and add 
+square bracket, and put index of our required item. 
+and indexing begin with zero 0, instead of 1 
+
+For example, in this array  to access 'Mohit' we need to access student[1]
+
+
+
+1) concatination -> 
+2) SubString -> substr
+3) array of characters  
+
+1) concatination => adding two or more string. we use + operator for concatination.
+2) substr => get some/all part of string 
+Example => 
+variable_name.substr(start , length)

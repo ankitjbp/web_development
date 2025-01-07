@@ -1,0 +1,26 @@
+<html>
+    <head>
+<!---Write a program to find whether given number is divisible by 3-->
+    </head>
+    <body>
+        <input type="text" placeholder="Enter a number" id="user_input"/>
+        <input type="button" placeholder="Enter a number" onclick="check()" value="GET EVEN/ODD"/>
+    </body>
+<script>
+    function check(){
+        var user_input=document.getElementById("user_input").value;
+
+        user_input=parseInt(user_input); // use parseInt() to convert string into number
+
+        if(user_input%3==0){
+            alert("Entered Number is divisible by 3 ");
+        }else {
+            alert("Entered Number is NOT divisible by 3 ");
+        }
+
+
+}
+
+</script>
+
+</html>

@@ -1,0 +1,19 @@
+Algorithm -> 
+
+kind of (mathematical or logical )rules
+
+we break a task  in step by step process
+
+Example - Chai banane ka example 
+
+1) Get pod for water  [logical]
+2) pour water into pod [mathematical]
+3) ignite the burner [normal, logical]
+4) put the pod over burner [normal process]
+5) add tea, sugar, spices as such ginger and all[]
+6) add milk [conditional] [logical ]
+
+
+Flowchart - > those diagrams / we prepare for representation of process/ task 
+in a program 
+

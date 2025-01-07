@@ -1,0 +1,44 @@
+<html>
+    <head>
+<!--GET factorial of given number using while in javascript-->
+    </head>
+    <body>
+        <input type="button"  onclick="print_object()" value="Print Object"/>
+        <div id="result" style="height:100px;width:600px;background-color:chartreuse"></div>
+    </body>
+<script>
+
+// syntax 
+
+// object_name = new Object;
+
+//example 
+function print_object(){
+
+
+    student = new Object;
+
+    student.name="Mohit";
+    student.class="12th";
+    student.age=15;
+    student.address="Jabalpur"
+
+    student.getAgeOfStudent=function(){
+        return student.age;
+    }
+
+   var length_of_student=student.name.length; 
+alert("length of student's name is "+length_of_student);
+
+alert("age of student is "+student.getAgeOfStudent());
+
+// console.log(student);
+
+
+}
+
+
+
+</script>
+
+</html>

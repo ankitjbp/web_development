@@ -1,0 +1,42 @@
+HTML => Hypertext markup language 
+webpage => HTML+CSS+Javascript
+
+
+HTML => What to how 
+CSS
+ (CASCADING STYLE SHEET)
+
+=> How it looks 
+Syntax =>
+selector
+{
+property1:"value_in_text"; // in text
+property2:100px; // in numeric value
+}
+
+#green_box{
+border:2px solid black; height:300px;width:900px;background-color:#22b14c;float:left;
+margin:10px;
+}
+
+
+Selector => to associate css and javascript. 
+
+id, class, element
+1) ID => to work on single element we use this, and represent it by #id_name
+
+
+
+
+
+(i) Internal => 
+(ii) External 
+(iii) Inline
+
+
+
+JavaScript => Action 
+
+
+
+ 

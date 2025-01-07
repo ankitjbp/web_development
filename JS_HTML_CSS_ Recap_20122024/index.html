@@ -1,0 +1,67 @@
+<html>
+<head>
+<style type="text/css">
+html{
+background-color:orange
+}
+
+</style>
+
+<title>Welcome To Webpage</title>
+</head>
+<body>
+<input type="button" id="morning" 
+onclick="morning()" value="Morning"/>
+<input type="button" id="afternoon" 
+onclick="afternoon()" value="Afternoon"/>
+<input type="button" id="night" 
+onclick="night()" value="Night"/>
+<center>
+<img src="blank.jpg" id="alu" style="height:600px;width:600px;"/>
+</center>
+<script>
+
+function morning(){
+    var image=document.getElementById("alu");
+    var morning=document.getElementById("morning");
+    var afternoon=document.getElementById("afternoon");
+    var night=document.getElementById("night");
+    afternoon.style="background-color:white";
+    night.style="background-color:white";
+
+
+    morning.style="background-color:green";
+image.src="morning.jpg";    
+}
+
+function afternoon(){
+    var image=document.getElementById("alu");
+    var afternoon=document.getElementById("afternoon");
+    var morning=document.getElementById("morning");
+    var night=document.getElementById("night");
+
+    afternoon.style="background-color:green";
+    morning.style="background-color:white";
+    night.style="background-color:white";
+
+image.src="afternoon.jpg";    
+}
+
+function night(){
+    var image=document.getElementById("alu");
+    var afternoon=document.getElementById("afternoon");
+    var morning=document.getElementById("morning");
+
+    var night=document.getElementById("night");
+    night.style="background-color:green";
+    afternoon.style="background-color:white";
+    morning.style="background-color:white";
+
+image.src="night.jpg";    
+}
+
+</script>
+
+
+</body>
+</html>

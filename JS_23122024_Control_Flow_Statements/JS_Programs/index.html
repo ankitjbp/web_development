@@ -1,0 +1,27 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <input type="text" placeholder="Enter a number" id="user_input"/>
+        <input type="button" placeholder="Enter a number" onclick="check_even_odd()" value="GET EVEN/ODD"/>
+    </body>
+<script>
+    function check_even_odd(){
+        var user_input=document.getElementById("user_input").value;
+  //       alert(typeof(user_input));
+        user_input=parseInt(user_input); // use parseInt() to convert string into number
+//        alert(typeof(user_input));
+
+        if(user_input%2==0){
+            alert("Entered Number is even");
+        }else {
+            alert("Entered Number is odd");
+        }
+
+
+}
+
+</script>
+
+</html>

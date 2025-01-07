@@ -1,0 +1,46 @@
+
+
+
+<html>
+    <head>
+<!---Write a program to find whether entered number is A prime number-->
+<!-- number should only divisible by itself. -->
+    </head>
+    <body>
+        <input type="text" placeholder="Enter a number" id="user_input"/>
+        <input type="button"  onclick="check_prime()" value="GET RESULT"/>
+        <div id="result" style="height:100px;width:600px;background-color:goldenrod"></div>
+
+    </body>
+<script>
+    function check_prime(){
+        var user_input=document.getElementById("user_input").value;
+        user_input=parseInt(user_input); // use parseInt() to convert string into number
+        var prime =true;
+
+        for(i=2;i>user_input;i++){
+            remainder=user_input%i;
+            if(remainder==0){
+                prime=false
+         exit;
+            }
+        }
+if(prime===true){
+    var result="Given number"+user_input+"  is prime";
+        document.getElementById("result").innerHTML=result;
+}
+else {
+    var result="Given number"+user_input+"  is NOT a prime number";
+        document.getElementById("result").innerHTML=result;
+}
+
+
+}
+
+
+</script>
+
+</html>
+
+
+

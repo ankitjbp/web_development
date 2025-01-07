@@ -1,0 +1,4 @@
+while(is condition true){
+// code goes here
+
+}

@@ -1,0 +1,31 @@
+<html>
+    <head>
+<!---Write a program to find factorial of entered number-->
+    </head>
+    <body>
+        <input type="text" placeholder="Enter a number" id="user_input"/>
+        <input type="button"  onclick="check()" value="GET Factorial"/>
+        <div id="result" style="height:100px;width:600px;background-color:goldenrod"></div>
+
+    </body>
+<script>
+    function check(){
+        var user_input=document.getElementById("user_input").value;
+        alert(typeof(user_input));
+        user_input=parseInt(user_input); // use parseInt() to convert string into number
+
+        var factorial =1
+        for(i=user_input;i>1;i--){
+            factorial =factorial*i;
+
+        }
+//        alert("factorial of given number is ="+factorial);
+        var result="factorial of given number is ="+factorial;
+        document.getElementById("result").innerHTML=result;
+
+}
+
+
+</script>
+
+</html>

@@ -1,0 +1,12 @@
+1) Objective  -> To write a program in JavaScript,  that will check whether a 
+provided string is palindrome or not 
+
+2) Analysis -> 
+
+3) Design (Algorithm) -> 
+
+4) Coding & Debugging->
+
+
+5) Unit Testing ->
+

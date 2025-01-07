@@ -1,0 +1,18 @@
++
+-
+/
+*
+%
+
+
+< less than
+<= less than or equal
+> greater than 
+>= greater than or equal 
+= assignment operator 
+var age="37"
+== comparision by values 
+=== comparision by types 
+
+true/false 
+ 

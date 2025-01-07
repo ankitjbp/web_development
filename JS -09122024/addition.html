@@ -1,0 +1,25 @@
+<html>
+<head>
+</head>
+<body>
+First Number : <input type="text" id="first"/>
+Second Number : <input type="text" 
+id="second"
+/>
+<input type="button" value="Addition"
+id="addition" onclick="get_addition()"/>
+</body>
+<script type="text/javascript">
+function get_addition()
+{
+var first = document.getElementById("first").value;
+var second = document.getElementById("second").value;
+
+var addition = Number(first)+Number(second);
+alert("addition should be =",addition);
+alert("addition is =",+addition);
+}
+
+
+</script>
+</html>

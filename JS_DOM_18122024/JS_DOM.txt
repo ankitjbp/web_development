@@ -1,0 +1,12 @@
+============================
+DOM=> Document Object Model
+============================
+
+Within a webpage DOM is bridge which let
+intract javascript with browser, 
+using it, JavaScript perform 
+various operations/ activities.
+
+Example - 
+
+var first=document.getElementById("first").value;

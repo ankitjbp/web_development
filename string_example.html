@@ -1,0 +1,24 @@
+<html>
+    <head>
+<!--GET factorial of given number using while in javascript-->
+    </head>
+    <body>
+        <input type="text" placeholder="Enter Name" id="user_input"/>
+        <input type="button"  onclick="print_name()" value="Print Name"/>
+        <div id="result" style="height:100px;width:600px;background-color:chartreuse"></div>
+    </body>
+<script>
+
+
+function print_name(){
+var name= document.getElementById('user_input').value;
+var length_of_name = name.length
+//alert(name);
+document.getElementById("result").innerHTML=name +" and its length is "+length_of_name;
+console.log(name);
+
+}
+
+</script>
+
+</html>

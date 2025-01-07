@@ -1,0 +1,37 @@
+In nutshell it's library built using javascript 
+itself
+
+
+1)  easy to use
+var name = document.getElementById("user_name").value;
+var name = $("#user_name").val();
+
+
+2) multiple and vast options to use.
+
+3) community support is good.
+4) good for beginingers
+
+How to use - 
+
+a) either download it from 
+
+https://jquery.com/download/
+
+and use as external js file.
+    <script src="jquery.min.js"></script> 
+
+b) using a CDN -> Content Delivery Network 
+(use existing jquery in internet)
+such as 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
+Syntax - jQuery represented by $ sign or 'jQuery'
+
+<script>
+$(document).ready(function(){
+alert("do whatever you want to do");
+});
+</script>

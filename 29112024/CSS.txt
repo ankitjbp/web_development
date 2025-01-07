@@ -1,0 +1,5 @@
+
+
+1)internal CSS => when css is being used within webpage 
+
+

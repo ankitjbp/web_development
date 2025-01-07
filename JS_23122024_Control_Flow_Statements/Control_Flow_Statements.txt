@@ -1,0 +1,42 @@
+What are Control Flow Statements => 
+Those commands or statements in programming, which guide flow of program.
+
+ 
+
+1) Conditional Statements => 
+When you consider a condition, and do write accordingly, its call conditional statement
+IF, IF-ELSE, IF-ELSE-IF
+Switch
+
+Example - 
+if(road_state=="block"){
+// 
+alert("take u turn, and go using other way");
+}
+
+
+if(sabji=="kaddu"){
+// 
+alert("eat roti wih sauce/JAM");
+}
+
+ 
+2)Loop Statments => When we have to use repeatition of some statements, 
+its called Loop 
+For, while, do-while 
+
+
+Example -> 
+while(desination=="NO"){
+alert("keep walking, keep running");
+}
+
+
+3) Jump Statements=> when we have to avoid further execution of program/
+code block 
+
+Example ->
+return 
+
+
+ 

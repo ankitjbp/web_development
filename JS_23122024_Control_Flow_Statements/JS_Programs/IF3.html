@@ -1,0 +1,26 @@
+<html>
+    <head>
+<!---Write a program to find whether given marks are belong for success or failure-->
+    </head>
+    <body>
+        <input type="text" placeholder="Enter Marks" id="user_input"/>
+        <input type="button"  onclick="check()" value="GET RESULT"/>
+    </body>
+<script>
+    function check(){
+        var user_input=document.getElementById("user_input").value;
+
+        user_input=parseInt(user_input); // use parseInt() to convert string into number
+
+        if(user_input<40){
+            alert("Student is not passed ");
+        }else {
+            alert("Student is pass");
+        }
+
+
+}
+
+</script>
+
+</html>

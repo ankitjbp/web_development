@@ -1,0 +1,26 @@
+Anchor Tag=> 
+
+To go to another webpage 
+within a website or outside to a website 
+
+Sytax:
+<a href="url_of_destination">
+Go To this URL 
+</a>
+
+example : 
+<a href="anchor_tag.html">
+Go to Anchor Page 
+</a>
+
+Type of addresses =
+(1)Absolute 
+(2)Relative 
+
+
+
+
+
+
+
+

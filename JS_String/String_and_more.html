@@ -1,0 +1,33 @@
+<html>
+<head>
+
+</head>
+<body>
+    Enter lyrics of a song<input type="text" id="song" length="500" style="width:400px;"/>
+    <br/>
+    Enter index to get Substring from song<input type="text" id="index"/>
+<br/>
+    Enter length of desired substring<input type="text" id="length"/>
+    <br/>
+<input type="button" value="Show Concatination"
+onclick="get_substring()"
+/>
+<div id="display">
+
+</div>
+
+<script>
+get_substring =function (){
+    var song=document.getElementById('song').value;
+    var index=document.getElementById('index').value;
+    var length=document.getElementById('length').value;
+
+    var sub_string= song.substr(index,length);
+    var result =document.getElementById('display');
+    result.innerHTML= sub_string;
+}
+
+    </script>
+
+</body>
+</html>

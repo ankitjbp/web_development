@@ -1,0 +1,87 @@
+<html>
+<head>
+</head>
+<body>
+<form>
+First Number <input type="text" id="first"/>
+<br/>
+Second Number <input type="text" id="second"/>
+</form>
+<input type="button" value="Addition" 
+onclick="calculate_addition()"
+/>
+<input type="button" value="Substraction" 
+onclick="calculate_sub()"
+/>
+<input type="button" value="Devision" 
+onclick="calculate_dev()"
+/>
+<input type="button" value="Multiplication" 
+onclick="calculate_multi()"
+/>
+<input type="button" value="Moduluo Devision" 
+onclick="calculate_moduluo()"
+/>
+
+</body>
+<script type="text/javascript">
+// writing a function to calculate addition of given inputs 
+function calculate_addition(){
+/*
+
+*/ getting values typed by a user in first input box
+var first=document.getElementById("first").value;
+// to check whether value shown is same, typed by user
+// getting values typed by a user in second input box
+var second=document.getElementById("second").value;
+var result =parseInt(first)+parseInt(second);
+alert("addition of given numbers is ="+result);
+
+}
+
+function calculate_sub(){
+// getting values typed by a user in first input box
+var first=document.getElementById("first").value;
+// to check whether value shown is same, typed by user
+// getting values typed by a user in second input box
+var second=document.getElementById("second").value;
+var result =parseInt(first)-parseInt(second);
+alert("substraction of given numbers is ="+result);
+}
+
+function calculate_dev(){
+// getting values typed by a user in first input box
+var first=document.getElementById("first").value;
+// to check whether value shown is same, typed by user
+// getting values typed by a user in second input box
+var second=document.getElementById("second").value;
+var result =parseInt(first)/parseInt(second);
+alert("Devision of given numbers is ="+result);
+}
+
+
+function calculate_multi(){
+// getting values typed by a user in first input box
+var first=document.getElementById("first").value;
+// to check whether value shown is same, typed by user
+// getting values typed by a user in second input box
+var second=document.getElementById("second").value;
+var result =parseInt(first)*parseInt(second);
+alert("Multiplication of given numbers is ="+result);
+}
+
+function calculate_moduluo(){
+// getting values typed by a user in first input box
+var first=document.getElementById("first").value;
+// to check whether value shown is same, typed by user
+// getting values typed by a user in second input box
+var second=document.getElementById("second").value;
+var result =parseInt(first)%parseInt(second);
+alert("Modulo Devision of given numbers is ="+result);
+}
+
+
+
+</script>
+
+</html>

@@ -1,0 +1,30 @@
+<html>
+    <head>
+<!--GET factorial of given number using while in javascript-->
+    </head>
+    <body>
+        <input type="text" placeholder="Enter a number" id="user_input"/>
+        <input type="button"  onclick="get_factorial()" value="GET FACTORIAL"/>
+        <div id="result" style="height:100px;width:600px;background-color:chartreuse"></div>
+    </body>
+<script>
+    function get_factorial(){
+
+        var user_input=document.getElementById('user_input').value;
+            var factorial=1; 
+            while(user_input>1){
+
+                factorial=factorial*user_input;
+                user_input=user_input-1;
+            }
+            document.getElementById('result').innerHTML="Factorial is "+factorial;
+
+}
+
+
+</script>
+
+</html>
+
+
+

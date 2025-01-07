@@ -1,0 +1,67 @@
+
+Comment => Comment is a details 
+for coder, reviewer, customer 
+which not execute in a program, though they been written within program itself.
+
+
+Example - >  Commentary in live cricket telecast, as commentator/s says alot, but it dont play any active role within cricket match, in programming term, comment is non-execuable part.
+
+in javascript,or other programming language, we can use comment in following nature 
+1) inline  // 
+2) multiple line 
+/*
+
+*/ 
+
+
+
+Variable and their data types=> as we used in mathematics 
+ x,y,z a,b,c
+
+x=10*5=>50 
+Example - to calculate age, without knowing value, lets consider following example 
+
+shyamu ki aayu uske pitaji se 1/4 hai, 5 saal pahle uski aayu uske pitaji ki aayu ka 1/7 thi. 
+
+Shyamu =>x
+father=>4x
+
+5 years back 
+x-5 = 7(x-5)
+
+
+var age_of_father="x";
+var age_of_son="x/4";
+
+
+those, drav, gas, plasma
+
+Solid, Liquid, GAS, plasma
+
+
+bartan jaise Jaar mein chawal, bottle mein AATA aa sakta hai par,  bori mein paani nahi rakh sakte 
+uske liye aapko bartan hi chahiye hoga 
+
+data type :- String, number, undefinded, null, object 
+
+ 
+Scope=> Programming mein scope ka matlab hai ki daarya / limit
+
+function(){
+1
+2
+3
+4
+condition 
+{
+}
+
+loop {
+}
+
+}
+
+Code block => lines of code used to perform a specific task.
+ 
+
+

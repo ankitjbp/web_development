@@ -1,0 +1,24 @@
+Data Type => units or  scaled used in various sort of data. 
+
+Distance -> kilometer 
+Cloth -> Meters 
+Fluid/ liquid-> Litre 
+vegitables/ fruits -> kg 
+Banana -> Dozen 
+
+
+example -> 
+Name => "Dwarika Prasad Napit"
+age => 36
+is_on_leave=> false
+ 
+
+Data Types supported in JavaScript =>
+
+String => "Ankit Singh",'Jabalpur','', 
+number=> 10,20, 10.09,0.8,0
+boolean=> true/false 
+undefined =>   (Default data type )
+null =>  
+ 
+

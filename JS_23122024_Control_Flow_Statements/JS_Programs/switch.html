@@ -1,0 +1,47 @@
+<html>
+    <head>
+<!--Use of switch case in javascript-->
+    </head>
+    <body>
+        <input type="text" placeholder="Enter a Grade" id="user_input"/>
+        <input type="button"  onclick="get_range_of_percentages()" value="GET RANGE"/>
+        <div id="result" style="height:100px;width:600px;background-color:chartreuse"></div>
+    </body>
+<script>
+    function get_range_of_percentages(){
+
+        var user_input=document.getElementById('user_input').value;
+        switch(user_input){
+
+            case 'A':{
+                document.getElementById('result').innerHTML="PERCENTAGES are between 70 to 100";
+                break;
+            }
+            case 'B':{
+                document.getElementById('result').innerHTML="PERCENTAGES are between 60 to 69";
+                break;
+            }
+            case 'C':{
+                document.getElementById('result').innerHTML="PERCENTAGES are between 45 to 59";
+                break;
+            }
+            case 'D':{
+                document.getElementById('result').innerHTML="PERCENTAGES are between 35 to 44";
+                break;
+            }
+            default:{
+                document.getElementById('result').innerHTML="Please enter suitable grades";
+            }
+            
+
+        }
+
+}
+
+
+</script>
+
+</html>
+
+
+

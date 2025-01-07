@@ -1,0 +1,37 @@
+<html>
+<head>
+</head>
+<body>
+<form>
+First Number <input type="text" id="first"/>
+<br/>
+Second Number <input type="text" id="second"/>
+</form>
+<input type="button" value="Calcualte Addition" 
+onclick="calculate_addition()"
+/>
+
+</body>
+<script type="text/javascript">
+// writing a function to calculate addition of given inputs 
+function calculate_addition(){
+// getting values typed by a user in first input box
+var first=document.getElementById("first").value;
+// to check whether value shown is same, typed by user
+
+alert(first);
+alert(typeof(first));
+
+// getting values typed by a user in second input box
+var second=document.getElementById("second").value;
+alert(second);
+var result =parseInt(first)+parseInt(second);
+alert("addition of given numbers is ="+result);
+
+
+
+}
+
+</script>
+
+</html>

@@ -1,0 +1,6 @@
+1) Enter string/statement
+2) enter from which index we want to 
+get substring 
+3) enter how longer (length) substring we want to have
+4) do required operations for get sub string.
+5) display/print substring

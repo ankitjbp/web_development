@@ -1,0 +1,9 @@
+
+
+function print_name(){
+var name= "Ankit Singh THakur";
+alert(name);
+document.getElementById("display").innerHTML=name;
+console.log();
+
+}

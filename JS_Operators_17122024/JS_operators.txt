@@ -1,0 +1,8 @@
+Mathematical operators 
+
++ addition (Jodna)
+- Substraction (Ghatana)
+/ Devision (Bhaag)
+* Multiplication (Guna)
+
+% - modulo devision 

@@ -1,0 +1,52 @@
+var student = new Object;
+
+
+Object -> 1) 
+
+properties => values 
+age  => 15
+name => "Mohit"
+address => 
+mobile_number=>
+
+example 
+student.name="Mohit"
+student.age=15
+student.mobile_no="9393939393"
+
+
+
+2) methods -> function -> perform task
+
+student.getMobileNumber= function(){
+
+ return student.mobile_no; 
+}
+
+
+
+student.getTimeNow= function(){
+ return 1; 
+}
+
+
+
+
+
+student.getTimeNow= function(){
+ return 1; 
+}
+
+
+
+function Employee(name,salary,designation){
+        this.name=name;
+        this.salary=salary;
+        this.designation=designation;
+}
+
+
+ankit = new Employee('Ankit','50000','Sr Developer');
+rahul = new Employee('Rahul','50000','ITA');
+dwarika = new Employee('Dwarika','500000','JSA');
+

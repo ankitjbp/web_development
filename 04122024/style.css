@@ -1,0 +1,34 @@
+html{
+background-color:#99d9ea;
+margin: 0 auto;
+}
+
+#top_banner{
+height:200px;
+margin: 0 auto;
+
+width:900px;
+background-color: orange;
+    border-radius: 14px;
+}
+
+#sidebar{
+margin: 0 auto;
+    background-color: #a349a4;
+    width: 280px;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 220px;
+    float: left;
+}
+
+#content{
+    margin: 0 auto;
+    background-color:#0025ff;
+    width: 500px;
+    border-radius: 14px;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 4px;
+    float: left;
+}

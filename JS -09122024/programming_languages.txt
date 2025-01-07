@@ -1,0 +1,73 @@
+types of programming 
+=====================
+
+Low Level => Assembly language -> 0,1,+,- Direct intract with CPU
+ (Computer Processing Unit )-> Microprocessor , LASP
+
+ 
+Mid level => C, C++
+
+High Level programming languages => php, python, Go, java, 
+==========================================================
+
+JavaScript 
+ 
+English + thode bahut instruction, keywords, syntax 
+
+
+Instructions : statement / command 
+Example - > Rahul, Naveen Sir, Mohit ICH gaye 
+
+-> Anna ko  Order ->
+
+Rahul - > Masala Dosa 
+Naveen Sir -> Idli 
+Mohit -> jo naveen sir, wo le aao 
+Variable :  which keeps values, 
+mohit->order= naveen_sir->order
+
+operators: sign which used for operations 
++,-,*,/, 
+types of oeprations - 
+Mathematical operation 
+logicial operations-> 
+less than <,grean than>,less than equal<=,
+
+keywords :  
+
+alert()
+break, 
+continue 
+
+function : set of instructions, 
+set of commands 
+
+Example -> Write a program to calculate addition two numbers.
+
+Solution 
+
+input : first_number
+input: second_number 
+input: click "addition" button and call 
+
+a funtion addition_two to calculate addition 
+
+function addition_two(a,b)
+{
+return a+b
+}
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
