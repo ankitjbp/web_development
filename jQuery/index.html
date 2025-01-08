@@ -5,14 +5,24 @@
     <body>
 
 Enter a username -       <input type="text" id="user_name" placeholder="Enter your name"/>
-<input type="button" value="Click Me"/>
+<button>Click Me</button>
     </body>
 
     <script>
         $(document).ready(function(){
-        alert("do whatever you want to do");
-        });
-        </script>
+//        alert("do whatever you want to do");
         
+            $("button").click(function(){
+                alert("button is just clicked by you");
+                var username= $("#user_name").val();
+                alert("using jquery =>"+username)
+                var username_js=document.getElementById("user_name").value;
+                alert("using classic JS=>"+ username_js)
+            });
+
+        });
+
+        </script>
+
 
 </html>
