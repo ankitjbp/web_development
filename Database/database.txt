@@ -1,0 +1,19 @@
+DATABASE - 
+Information get stored in form of binary
+ABC ->010101010
+
+=>
+
+tabular form =>
+
+
+For example - lets consider we have to manage database of a school
+
+1) Student-> 
+2) Classes
+3) Teachers
+4) Library
+5) Employees
+
+
+
