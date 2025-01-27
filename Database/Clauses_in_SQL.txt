@@ -1,0 +1,11 @@
+Clauses in SQL
+
+Select * from student;	
+
+SELECT => to read information from database table/tables
+FROM => from which source/sources we want to read information 
+WHERE => based upon which condition/conditions information to be read.
+
+GROUP BY=> use to combine information about same values for one or more fields/columns
+HAVING=> to apply condition on a result, it also help us to apply conditions on logical column/fields as well.
+ORDER BY=>to get information in particular order based on a field we use Order by clause
