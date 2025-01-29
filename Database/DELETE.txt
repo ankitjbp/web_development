@@ -1,0 +1,9 @@
+DELETE A ROW
+===============
+Syntax 
+
+Delete from <table_name>
+where <condition>;
+
+
+

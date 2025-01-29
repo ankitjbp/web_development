@@ -1,0 +1,15 @@
+Syntax - 
+
+update <table_name>
+SET 
+field1=value1,
+field2=value2,
+.
+.
+.
+fieldn=value_n
+where <condition>;
+
+
+
+

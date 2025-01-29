@@ -1,0 +1,36 @@
+create database company;
+use company;
+create table
+     employee
+     (id integer(4) primary key auto_increment,
+     name varchar(100) not null,
+     mobile_number varchar(10),
+     address varchar(255),
+     salary integer(6),
+     display varchar(1),
+     date_of_joining datetime);
+
+
+select * from employee;
+
+
+insert into employee(name,mobile_number,address,salary,display,date_of_joining) values ('Ankit Thakur','975667527','Ghamapur',50000,'Y','2020-05-01');
+
+
+insert into employee values (null,'Ankit Thakur','975667527','Ghamapur',50000,'Y','2020-05-01');
+
+# we use 'YYYY-MM-DD' for date related values in mysql
+
+
+
+update employee
+     set name='Rahul Namdeo',
+     mobile_number='989312346',
+     address='Civil Line',
+     salary=100000,
+     display='Y',
+     date_of_joining='2020-01-01'
+     where id=2;
+
+
+delete from employee where id=3;
