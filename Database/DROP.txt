@@ -1,0 +1,9 @@
+Syntax:- 
+-----------------
+a) to delete a database 
+
+drop database <database>;
+
+b) to delete a table from database;
+
+drop table <table_name>;
