@@ -1,0 +1,10 @@
+Aggregate function - 
+
+COUNT()
+SUM()
+AVG()
+MAX()
+MIN()
+
+
+agrregate function with group by 

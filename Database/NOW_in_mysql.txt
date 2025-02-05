@@ -1,0 +1,1 @@
+NOW()- this function is used to get current time of your server in database;
