@@ -1,0 +1,53 @@
+JOIN in SQL
+============
+
+Syntax -
+
+
+Select a.*,b.* 
+from table_1 a
+left join 
+table_2 b 
+on a.table_1_id=b.table_2__reference_id
+where 
+<condition>;
+
+Select b.*,a.name
+from class b
+left join 
+subject a
+on 
+a.id=b.subject_id
+where 1;
+
+
+
+
+
+
+Select b.id,b.time_of_class,a.name
+from class b
+left join 
+subject a
+on 
+a.id=b.subject_id
+where b.display='Y'
+and a.display='Y';
+
+
+Column 'display' in where clause is ambiguous
+
+Select b.id,b.time_of_class,a.name
+from class b
+left join 
+subject a
+on 
+a.id=b.subject_id
+where b.display='Y';
+
+
+
+
+
+
+

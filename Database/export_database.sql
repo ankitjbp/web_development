@@ -1,0 +1,1 @@
+mysqldump -u root -p  online_class > schema_for_online_class.sql
