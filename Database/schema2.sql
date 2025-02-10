@@ -19,3 +19,5 @@ sub_name varchar(40),
 display varchar(1),
 create_date datetime
 );
+insert into subject(id,name, sub_name,create_date) values (2,'Database','2025-01-22 08:15:00');
+insert into class values (1,'shridhar','javascrip','Y','2025-01-22 08:00:00'); 
