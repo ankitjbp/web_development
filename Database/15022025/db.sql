@@ -35,6 +35,19 @@ CREATE TABLE `class` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
+create table class
+(
+id integer(3), 
+time_of_class varchar(40),
+display varchar(1),
+create_date datetime,
+subject_id int(2),
+student_id int(4)
+);
+insert into subject(id,name, sub_name,create_date) values (2,'Database','2025-01-22 08:15:00');
+insert into class values (1,'7:30 AM','Y','2025-01-22 08:00:00''2','1'); 
+
+
 --
 -- Dumping data for table `class`
 --
