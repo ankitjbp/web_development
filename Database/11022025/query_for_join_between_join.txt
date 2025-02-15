@@ -1,0 +1,11 @@
+select st.name,sb.name,c.time_of_class
+from 
+student st
+left join 
+class c on c.student_id=st.id
+left join 
+subject sb 
+on 
+c.subject_id=sb.id
+where c.time_of_class='07:30 AM';
+
