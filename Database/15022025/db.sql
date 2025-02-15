@@ -76,6 +76,21 @@ CREATE TABLE `student` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
+CREATE TABLE student (
+ id int(3),
+  name varchar(100),
+  email varchar(100),
+  age int(2),
+  stream varchar(50),
+  address` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (id);
+
+INSERT INTO student VALUES (1,'Dwarika',NULL,40,'professional',NULL),(2,'Rahul','rahul@gmail.com',34,'professional','civil line'),(3,'Naveen Pandey','naveen@gmail.com',43,'professional','Rampur'),(4,'Mohit','mohit@gmail.com',15,'student','South Civil Lines'),(5,'Anusha','anusha@test.com',15,'Student','Civil Lines');
+/*!40000 ALTER TABLE `student` ENABLE KEYS */;
+
+
+
+
 --
 -- Dumping data for table `student`
 --
@@ -101,6 +116,16 @@ CREATE TABLE `subject` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
+CREATE TABLE subject (
+  id int(3),
+  name varchar(40),
+  display varchar(1),
+  create_date datetime,
+  PRIMARY KEY (id));
+
+INSERT INTO subject VALUES (1,'JavaScript','Y','2025-01-22 08:00:00'),(2,'Database',NULL,'2025-01-22 08:15:00'),(3,'jQuery','N',NULL);
+
 
 --
 -- Dumping data for table `subject`
