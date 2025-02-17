@@ -1,0 +1,36 @@
+PHP =>
+Preprocessor Hypertext
+Hypertext Preprocessor 
+ It is server side scripting programming language, this is an interpreter based programming language.
+
+
+Programming languages based on two plateforms 
+1) Compiler based  => all code get compile/execute together 
+example > C,C++, Java 
+2) Interpreter based => line by line execution 
+example 
+
+Some key features about php 
+================================
+(i)PHP WebPage => php +(html+css+js)
+(ii)extension of php page is .php 
+(iii) we keep code of php in between tag 
+
+How to create a php webpage in XAMPP 
+1) go to location of xampp 
+example  c:\xampp\htdocs
+
+create a folder and then create php file 
+example- we just created php_project folder, and create a file called index.php 
+
+
+to explore/view it we should open URL 
+
+http://localhost/php_project/
+
+Tag of php 
+<?php 
+
+?>
+
+
